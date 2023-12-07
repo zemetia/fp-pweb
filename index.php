@@ -1,3 +1,9 @@
+<?php
+$meta = array(
+    "title" => "Wallet",
+);
+?>
+
 <html lang="id">
 <?php include "./base.php"; ?>
 
