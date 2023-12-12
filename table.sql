@@ -26,7 +26,7 @@ CREATE TABLE user_on_wallets (
     FOREIGN KEY (user_id) REFERENCES Users(id)
 );
 
-CREATE TABLE Mutasi mutation(
+CREATE TABLE mutation(
     id INT AUTO_INCREMENT PRIMARY KEY,
     type VARCHAR(10) NOT NULL,
     uow_id VARCHAR(6) NOT NULL,
